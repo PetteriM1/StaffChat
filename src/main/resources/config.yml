@@ -1,0 +1,3 @@
+# Permission for staff chat is staff.chat (default for OPs).
+# You can use colors by using § symbol.
+format: "§b[§dStaff§f | §d%name%§b] §e%message%"

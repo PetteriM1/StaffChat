@@ -1,0 +1,15 @@
+name: StaffChat
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+main: sc.StaffChat
+
+commands:
+  sc:
+    description: Staff chat
+    usage: "/sc <message>"
+    permission: staff.chat
+permissions:
+  staff.chat:
+    description: "Staff chat"
+    default: op
