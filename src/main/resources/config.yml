@@ -1,3 +1,10 @@
-# Permission for staff chat is staff.chat (default for OPs).
-# You can use colors by using § symbol.
+config-version: 2
+
+# Permission for staff chat is staff.chat (default: OP).
 format: "§b[§dStaff§f | §d%name%§b] §e%message%"
+
+# Permission for online staff list is staff.list (default: OP).
+staff-list-format: "§l§aOnline staff members:"
+
+# Add channel id to enable staff chat via DiscordChat
+discord-staff-channel-id: ""

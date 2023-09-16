@@ -3,13 +3,20 @@ version: "${pom.version}"
 api: ["1.0.0"]
 author: PetteriM1
 main: sc.StaffChat
-
+softdepend: ["DiscordChat"]
 commands:
   sc:
-    description: Staff chat
+    description: Send message to staff members
     usage: "/sc <message>"
     permission: staff.chat
+  staff:
+    description: Show online staff members
+    usage: "/staff"
+    permission: staff.list
 permissions:
   staff.chat:
     description: "Staff chat"
+    default: op
+  staff.list:
+    description: "Staff list"
     default: op
